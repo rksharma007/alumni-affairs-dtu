@@ -711,7 +711,7 @@ section {
 --------------------------------------------------------------*/
 
 .past-director{
-  background-color: #6BADA7;
+  background-color: #074d70;
   font-size: small;
 }
 
@@ -2566,4 +2566,26 @@ ul{
   .team-image{
     width: 100%;
   }
+}
+
+/* ------Donation------ */
+.donation-banner{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #283750;
+}
+
+.donation-opp-banner{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #e4edfc;
+}
+
+.our-donors{
+  background-color: #e4edfc;
+}
+
+.how-to-donate{
+  background-color: #e4edfc;
+  width: 100%;
 }

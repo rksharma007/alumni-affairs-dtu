@@ -133,7 +133,7 @@ const Landing = () => {
           <div class="container" data-aos="fade-up">
             <div class="section-title mb-3">
               <div>
-                <h2>Message of Dean</h2>
+                <h2 style={{color:'white'}}>Message of Dean</h2>
               </div>
 
               <div class="row">
@@ -330,12 +330,7 @@ const Landing = () => {
           <div class="container" data-aos="fade-up">
             <div class="section-title">
               <h2>Contact</h2>
-              <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
-              </p>
+             
             </div>
 
             <div>
@@ -465,7 +460,7 @@ const Landing = () => {
                   </div>
                 </div>
 
-                <div class="col-md-2 col-lg-3 download-item">
+                {/* <div class="col-md-2 col-lg-3 download-item">
                   Employer Feedback Form
                   <div class="small">
                     <a
@@ -482,9 +477,9 @@ const Landing = () => {
                       <icon class="bi bi-list-ul"></icon>&nbsp;Google Form
                     </a>
                   </div>
-                </div>
+                </div> */}
 
-                <div class="col-md-2 col-lg-3 download-item">
+                {/* <div class="col-md-2 col-lg-3 download-item">
                   Exit Survey Feedback Form
                   <div class="small">
                     <a
@@ -501,7 +496,7 @@ const Landing = () => {
                       <icon class="bi bi-list-ul"></icon>&nbsp;Google Form
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -2,7 +2,12 @@ import React from "react";
 import { Route, Routes } from 'react-router';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+import ContributionFund from "./components/donations/ContributionFund";
 import Donations from "./components/donations/Donations";
+import HowToDonate from "./components/donations/HowToDonate";
+import MedalScholarship from "./components/donations/MedalScholarship";
+import NamingOpp from "./components/donations/NamingOpp";
+import WhyDonate from "./components/donations/WhyDonate";
 import Events from "./components/events/Events";
 import Gallery from "./components/gallery/Gallery";
 import CurrentStudent from "./components/join/CurrentStudent";
@@ -25,6 +30,11 @@ function App() {
         <Route path="/joinalumni" element={<JoinAlumni />} />
         <Route path="/notablealumni" element={<NotableAlumni/>} />
         <Route path="/currentstudent" element={<CurrentStudent />} />
+        <Route path="/whydonate" element={<WhyDonate />} />
+        <Route path="/howtodonate" element={<HowToDonate />} />
+        <Route path="/naming-oppurtunities" element={<NamingOpp />} />
+        <Route path="/medal-scholarship" element={<MedalScholarship />} />
+        <Route path="/contribution-fund" element={<ContributionFund />} />
         <Route path="/home" element={<Landing />} />      
         <Route path="/*" element={<Landing />} />
       </Routes>

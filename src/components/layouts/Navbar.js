@@ -41,10 +41,41 @@ export default function Navbar() {
                   Notable Alumni
                 </a>
               </li>
-              <li class="nav-link">
+              <li class="dropdown">
                 <a href="/donations">
-                  <span>Donations</span>
+                  <span>Donations</span> <i class="bi bi-chevron-down"></i>
                 </a>
+                <ul>
+                  <li class="dropdown"></li>
+                  <li>
+                    <a href="/donations">Our Donors</a>
+                  </li>
+                  <li>
+                    <a href="/whydonate">Why Donate?</a>
+                  </li>
+                  <li>
+                    <a href="/howtodonate">How to Donate?</a>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#">
+                      <span>Donation Oppurtunities</span> <i class="bi bi-chevron-right"></i>
+                    </a>
+                    <ul>
+                      <li class="dropdown"></li>
+                      <li>
+                        <a href="/naming-oppurtunities">Naming Oppurtunities</a>
+                      </li>
+                      <li>
+                        <a href="/medal-scholarship">Medal & Scholarship</a>
+                      </li>
+                      <li>
+                        <a href="/contribution-fund">Contribution Fund</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                </ul>
               </li>
               <li>
                 <a class="nav-link scrollto" href="/news">
@@ -71,6 +102,8 @@ export default function Navbar() {
                   </li>
                 </ul>
               </li>
+
+              
 
               <li class="nav-link">
                 <a href="/gallery">
