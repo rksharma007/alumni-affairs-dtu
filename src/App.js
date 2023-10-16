@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Routes } from 'react-router';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+import { useEffect } from "react";
 import ContributionFund from "./components/donations/ContributionFund";
 import Donations from "./components/donations/Donations";
 import HowToDonate from "./components/donations/HowToDonate";
@@ -18,10 +19,21 @@ import Navbar from "./components/layouts/Navbar";
 import News from "./components/news/News";
 import NotableAlumni from "./components/notable-alumni/NotableAlumni";
 
+
 function App() {
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 991);
+
+useEffect(() => {
+    window.addEventListener("resize", () => {
+        const ismobile = window.innerWidth < 991;
+        if (ismobile !== isMobile) setIsMobile(ismobile);
+    }, false);
+}, [isMobile]);
+
   return (
     <Router>
-      <Navbar/>
+      <Navbar isMobile={isMobile} setIsMobile={setIsMobile}/>
       <Routes>
         <Route path="/news" element={<News />} />
         <Route path="/events" element={<Events/>} />

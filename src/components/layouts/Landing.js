@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from "react-countup";
 
 const Landing = () => {
   return (
@@ -80,48 +81,28 @@ const Landing = () => {
             <div class="row justify-content-end">
               <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="10"
-                    data-purecounter-duration="2"
-                    class="purecounter"
-                  ></span>
+                  <CountUp start={0} end={12} delay={1} duration={2}/>
                   <p>Core Team Members</p>
                 </div>
               </div>
 
               <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="21"
-                    data-purecounter-duration="2"
-                    class="purecounter"
-                  ></span>
+                  <CountUp start={0} end={14} delay={1} duration={2}/>
                   <p>Constitutional Members</p>
                 </div>
               </div>
 
               <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="3"
-                    data-purecounter-duration="2"
-                    class="purecounter"
-                  ></span>
+                  <CountUp start={0} end={5} delay={1} duration={2}/>
                   <p>Co-Ordinators</p>
                 </div>
               </div>
 
               <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="4"
-                    data-purecounter-duration="2"
-                    class="purecounter"
-                  ></span>
+                  <CountUp start={0} end={9} delay={1} duration={2}/>
                   <p>Dy. Co-Ordinators</p>
                 </div>
               </div>
