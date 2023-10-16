@@ -426,14 +426,14 @@ const Landing = () => {
                   Alumni Feedback Form
                   <div class="small">
                     <a
-                      href="/assets/docs/downloads/Alumni_Feedback_Form.pdf"
+                      href="#"
                       target="_blank"
                     >
                       <icon class="bi bi-download">&nbsp;PDF</icon>
                     </a>
                     &emsp;
                     <a
-                      href="https://forms.gle/jUuT4iCUGd8N49xV6"
+                      href="https://forms.gle/#############"
                       target="_blank"
                     >
                       <icon class="bi bi-list-ul"></icon>&nbsp;Google Form
@@ -441,43 +441,7 @@ const Landing = () => {
                   </div>
                 </div>
 
-                {/* <div class="col-md-2 col-lg-3 download-item">
-                  Employer Feedback Form
-                  <div class="small">
-                    <a
-                      href="/assets/docs/downloads/EMPLOYER FEEDBACK FORM.pdf"
-                      target="_blank"
-                    >
-                      <icon class="bi bi-download">&nbsp;PDF</icon>
-                    </a>
-                    &emsp;
-                    <a
-                      href="https://forms.gle/FJ4bSCdYWQicKh2V7"
-                      target="_blank"
-                    >
-                      <icon class="bi bi-list-ul"></icon>&nbsp;Google Form
-                    </a>
-                  </div>
-                </div> */}
-
-                {/* <div class="col-md-2 col-lg-3 download-item">
-                  Exit Survey Feedback Form
-                  <div class="small">
-                    <a
-                      href="/assets/docs/downloads/DTU EXit Survey_Feedback_Form.pdf"
-                      target="_blank"
-                    >
-                      <icon class="bi bi-download">&nbsp;PDF</icon>
-                    </a>
-                    &emsp;
-                    <a
-                      href="https://forms.gle/ucM8eqrxk5tKyyTPA"
-                      target="_blank"
-                    >
-                      <icon class="bi bi-list-ul"></icon>&nbsp;Google Form
-                    </a>
-                  </div>
-                </div> */}
+                
               </div>
             </div>
           </div>

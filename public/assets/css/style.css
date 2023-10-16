@@ -917,8 +917,8 @@ section {
 #visionmission {
   position: relative;
   /* background: url("../img/wave-bg.svg") top center; */
-  /* background-size: cover; */
-  background-image:  repeating-radial-gradient(circle at 0 0, transparent 0, #ebfbff 60px), repeating-linear-gradient(#f5fbff, rgba(0, 145, 255, 0.2));
+  background-size: cover;
+  background-image:  repeating-radial-gradient(circle at 0% 50%, transparent 0, #ebfbff 100px), repeating-linear-gradient(#f5fbff, rgba(0, 145, 255, 0.2));
   background-color: #ebfbff;
   display: flex;
   flex-direction: row;
