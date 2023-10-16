@@ -11,6 +11,8 @@ import NamingOpp from "./components/donations/NamingOpp";
 import WhyDonate from "./components/donations/WhyDonate";
 import Events from "./components/events/Events";
 import Gallery from "./components/gallery/Gallery";
+import GalleryEvents from "./components/gallery/GalleryEvents";
+import GalleryMemories from "./components/gallery/GalleryMemories";
 import CurrentStudent from "./components/join/CurrentStudent";
 import JoinAlumni from "./components/join/JoinAlumni";
 import Footer from "./components/layouts/Footer";
@@ -37,7 +39,9 @@ useEffect(() => {
       <Routes>
         <Route path="/news" element={<News />} />
         <Route path="/events" element={<Events/>} />
-        <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/gallery-events" element={<GalleryEvents/>}/>
+        <Route path="/gallery-memories" element={<GalleryMemories/>}/>
+        <Route path="/gallery/*" element={<Gallery/>}/>
         <Route path="/donations" element={<Donations/>} />
         <Route path="/joinalumni" element={<JoinAlumni />} />
         <Route path="/notablealumni" element={<NotableAlumni/>} />

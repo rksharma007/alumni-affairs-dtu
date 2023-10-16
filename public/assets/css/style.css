@@ -2357,14 +2357,9 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
+/* 
 #gallery button {
   width: 100%;
-}
-
-#gallery .event-list {
-  /* border-style: solid;
-  border-width: 1px; */
 }
 
 #gallery .team-sep{
@@ -2372,7 +2367,6 @@ section {
 }
 
 #gallery-banner {
-  /* background-color: #3f4949; */
   border-style: solid;
   border-width: 1px;
   border-color: #4a4a4aab;
@@ -2382,7 +2376,6 @@ section {
 }
 
 #gallery-banner2 {
-  /* background-color: #3f4949; */
   border-style: solid;
   border-width: 1px;
   border-color: #4a4a4aab;
@@ -2438,7 +2431,7 @@ ul{
 }
 
 .image-gallery > li {
-  flex-basis: 300px; /* width: 350px; */
+  flex-basis: 300px;
 }
 
 .image-gallery li img {
@@ -2446,7 +2439,6 @@ ul{
   max-width: 100%;
   height: auto;
   vertical-align: middle;
-  /* border-radius: 5px; */
 }
 
 .image-gallery img:hover {
@@ -2486,7 +2478,7 @@ ul{
   border: 5px solid rgb(255, 255, 255);
   margin-bottom: 10px;
 }
-
+ */
 
 
 /*--------------------------------------------------------------
